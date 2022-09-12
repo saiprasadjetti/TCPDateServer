@@ -40,6 +40,7 @@ class Client{
             socket.close();
             in.close();
             out.close();
+            int x=0;
         }catch(IOException ex){
             System.out.println(ex);
         }
